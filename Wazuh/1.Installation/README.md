@@ -52,7 +52,7 @@ ifconfig
 
 Open a web browser and access the Wazuh web interface using the URL: https://<wazuh-dashboard-ip>.
 
-![image.png](attachment:9a4a2cbf-f96c-4b5a-a0c2-79ad3017f814:image.png)
+![image.png](image.png)
 
 # **Link References:**
 

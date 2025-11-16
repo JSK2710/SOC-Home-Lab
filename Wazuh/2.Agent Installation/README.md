@@ -12,19 +12,19 @@
 
 Open your Wazuh dashboard in the browser. Navigate to the home screen to confirm that there are no active agents and note any disconnected agents.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-4.png)
+![](image-4.png)
 
 ### **Step 2: Navigate to Server Management**
 
 Click the options menu, go to **Server Management**, and then click on **Endpoints Summary**.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-5.png)
+![](image-5.png)
 
 ### **Step 3: Deploy a New Agent**
 
 On the dashboard, select **Deploy New Agent**.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-6.png)
+![](image-6.png)
 
 ### **Step 4: Choose the Operating System**
 
@@ -41,7 +41,7 @@ Input your server’s address:
 
 Assign a unique name for the agent. Ensure it’s easily identifiable within your environment.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-7.png)
+![](image-7.png)
 
 ### **Step 7: Select a Group**
 
@@ -51,13 +51,13 @@ Choose a group for the agent. By default, select “default.”
 
 A command will be generated to download and install the agent. Copy this command.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-8.png)
+![](image-8.png)
 
 ### **Step 9: Install the Agent on the Client Machine**
 
 On your Ubuntu client machine, open the terminal, paste the copied command, and press **Enter**. Wait for the installation process to complete.
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-9.png)
+![](image-9.png)
 
 ### **Step 10: Start and Enable the Wazuh Agent**
 
@@ -69,6 +69,6 @@ sudo systemctl start wazuh-agent
 sudo systemctl status wazuh-agent
 ```
 
-![](https://thecyberreactor.in/wp-content/uploads/2024/12/image-10.png)
+![](image-10.png)
 
 Once done, return to your Wazuh dashboard and confirm that the new agent is active.

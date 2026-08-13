@@ -39,7 +39,7 @@ Input your server’s address:
 
 ### **Step 6: Set an Agent Name**
 
-Assign a unique name for the agent. Ensure it’s easily identifiable within your environment.
+Assign an IP address(wazuh Machine IP) and unique name for the agent. Ensure it’s easily identifiable within your environment.
 
 ![](image-7.png)
 
